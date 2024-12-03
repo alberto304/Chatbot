@@ -1,7 +1,7 @@
 # Chatbot
-El Chatbot realizado funciona con Inteligencia Artificial, donde recibe distintos parámetros de diferentes tipos de mensajes del archivo llamado intents.json. La siguiente parte se realiza en el archivo training.py, donde se estructuran los datos en función de 0 o 1 y se realiza un modelo de red neuronal, formado por 3 capas. Finalmente, en el archivo chatbot.py se realiza el mismo proceso con un mensaje introducido por el usuario y donde se realiza una predicción de la respuesta a este mensaje en base al modelo de red neuronal creado anteriormente, todo esto aparecerá en una especia de interfaz de chat creada con tkinter.
+Este Chatbot utiliza Inteligencia Artificial para procesar mensajes. Los diferentes tipos de mensajes están definidos en el archivo intents.json, el cual contiene patrones de entrada y sus respectivas respuestas. En el archivo training.py, estos datos se convierten a una representación binaria (0 y 1) y se entrenan utilizando un modelo de red neuronal con 3 capas. Finalmente, en el archivo chatbot.py, se analiza un mensaje introducido por el usuario y se genera una predicción basada en el modelo entrenado. La interacción con el usuario se realiza a través de una interfaz gráfica creada con Tkinter.
 
 Para el funcionamiento de la aplicación, se tendrán que seguir los siguientes pasos:
-  1. La creación y edición de los patrones de entrada y respuestas en el archivo intents.json
-  2. Entrenar el modelo en el archivo training.py, modificando los parámetros adecuados en el modelo y el optimizador
-  3. Ejecución del archivo chatbot.pyy.
+  1. Editar y personalizar los patrones de entrada y las respuestas en el archivo intents.json.
+  2. Entrenar el modelo en el archivo training.py, ajustando los parámetros del modelo y el optimizador según sea necesario.
+  3. Ejecución del archivo chatbot.py para probar el chatbot.
